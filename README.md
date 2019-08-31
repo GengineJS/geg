@@ -4,7 +4,7 @@
 
 <!-- <CodingAD /> -->
 
-[Gengine](http://panjiachen.github.io/vue-element-admin) 是一个基于 Vue.js 核心开发的前端框架，与Vue采用Typescript不同，Geg采用的是Es6开发,并修改了 Vue.js 的底层实现，包括了compile与platforms，并新增gxml部分。框架通过xml组织视图层级，所以它与底层视图渲染的方式,如dom的渲染等并没有直接关系，也因为这个特点，虽然Gengine开发之初是为了使用Vue兼容微信小游戏而设计，但是理论上可以使用Geg.js开发任意特定平台的视图项目。
+[Gengine](https://github.com/GengineJS/geg.git) 是一个基于 Vue.js 核心开发的前端框架，与Vue采用Typescript不同，Geg采用的是Es6开发,并修改了 Vue.js 的底层实现，包括了compile与platforms，并新增gxml部分。框架通过xml组织视图层级，所以它与底层视图渲染的方式,如dom的渲染等并没有直接关系，也因为这个特点，虽然Gengine开发之初是为了使用Vue兼容微信小游戏而设计，但是理论上可以使用Geg.js开发任意特定平台的视图项目。
 
 **我们可以通过以下关系来描述Geg.js与MVVM的关系。**
 ```          
