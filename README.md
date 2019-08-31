@@ -29,19 +29,16 @@
 
 ```
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/GengineJS/geg.git
 
 # 进入项目目录
-cd vue-element-admin
+cd geg
 
 # 安装依赖
-npm install
-
-# 建议不要用 cnpm 安装 会有各种诡异的bug 可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
+yarn
 
 # 本地开发 启动项目
-npm run dev
+yarn dev
 ```
 
 <br/>
@@ -51,38 +48,20 @@ npm run dev
 本项目已经为你生成了一个完整的开发框架，提供了Geg.js开发过程中的源码结构，下面是整个项目的目录层级。
 
 ```bash
-├── build                      # 构建相关
-├── mock                       # 项目mock 模拟数据
-├── plop-templates             # 基本模板
-├── public                     # 静态资源
-│   │── favicon.ico            # favicon图标
-│   └── index.html             # html模板
-├── src                        # 源代码
-│   ├── api                    # 所有请求
-│   ├── assets                 # 主题 字体等静态资源
-│   ├── components             # 全局公用组件
-│   ├── directive              # 全局指令
-│   ├── filters                # 全局 filter
-│   ├── icons                  # 项目所有 svg icons
-│   ├── lang                   # 国际化 language
-│   ├── layout                 # 全局 layout
-│   ├── router                 # 路由
-│   ├── store                  # 全局 store管理
-│   ├── styles                 # 全局样式
-│   ├── utils                  # 全局公用方法
-│   ├── vendor                 # 公用vendor
-│   ├── views                  # views 所有页面
-│   ├── App.vue                # 入口页面
-│   ├── main.js                # 入口文件 加载组件 初始化等
-│   └── permission.js          # 权限管理
-├── tests                      # 测试
-├── .env.xxx                   # 环境变量配置
-├── .eslintrc.js               # eslint 配置项
-├── .babelrc                   # babel-loader 配置
-├── .travis.yml                # 自动化CI配置
-├── vue.config.js              # vue-cli 配置
-├── postcss.config.js          # postcss 配置
-└── package.json               # package.json
+├── dist                      # rollup源码构建输出
+├── src                       # 源代码
+│   ├── compiler              # 编译相关
+│   ├── core                  # 源码核心
+│   ├── platforms             # 平台相关
+│   ├── sfc                   # parser相关
+│   └── index.js              # 源码入口
+├── .babelrc                  # babel-loader 配置
+├── config.js                 # rollup配置
+├── index.html                # 测试入口html
+├── package.json              # package.json
+├── test.xml                  # 测试xml模版相关
+├── yarn-error.log            # 构建错误log
+└── yarn.lock                 # 构建依赖相关
 ```
 <br/>
 
