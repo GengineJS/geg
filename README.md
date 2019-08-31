@@ -1,7 +1,3 @@
----
-pageClass: getting-started
----
-
 # 介绍
 
 [![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue)
