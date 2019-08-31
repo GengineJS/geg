@@ -132,6 +132,7 @@ let geg = new Geg({
 
 **除了Vuejs对应插件外,还可以通过以下插件进行Gengine开发**
 
-1. [Geg-Babylonjs](https://router.vuejs.org/) 通过Gengine实现对Babylonjs 3D引擎的操作。
+1. [Geg-Babylonjs](https://github.com/GengineJS/geg-babylonjs.git) 通过Gengine实现对Babylonjs 3D引擎的操作。
 
-2. [Geg-Threejs](https://vuex.vuejs.org/) 通过Gengine实现对Threejs 3D引擎的操作。
+2. [Geg-Threejs](https://github.com/GengineJS/geg-threejs.git) 通过Gengine实现对Threejs 3D引擎的操作。
+
