@@ -1,6 +1,6 @@
 # 介绍
 
-[![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue)
+[![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue) [![Join the chat at https://gitter.im/genginejs/community](https://badges.gitter.im/genginejs/community.svg)](https://gitter.im/genginejs/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <!-- <CodingAD /> -->
 
