@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "web game or wechat game generate engine",
   "main": "src/index.js",
-  "repository": "https://github.com/DMQ/mvvm.git",
+  "repository": "https://github.com/GengineJS/geg.git",
   "author": "架构组-webgl-郑祥奎 <zhengxiangkui@tongworld.com>",
   "license": "MIT",
   "scripts": {
