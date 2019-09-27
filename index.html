@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gengine</title>
+</head>
+<body>
+
+    <!-- <div id="mvvm-app">
+        <input type="text" v-model="someStr">
+        <input type="text" v-model="child.someStr">
+        <p v-class="className" class="abc">
+            {{someStr}}
+            <span v-text="child.someStr"></span>
+        </p>
+        <p>{{ getHelloWord }}</p>
+        <p v-html="htmlStr"></p>
+        <button v-on:click="clickBtn">change model</button>
+    </div> -->
+    <script type="module">
+        import Geg from './dist/geg.js'
+        Geg.component('blog-post', {
+            // 在 JavaScript 中是 camelCase 的
+            props: ['postTitle'],
+            template: '<h3>{{ postTitle }}</h3>',
+            mounted() {
+                this.$emit('customeve', 'helloworld')
+            }
+        })
+        var vm = new Geg({
+            el: './test.xml',// #mvvm-app
+            directives: {
+                focus: {
+                    // 指令的定义
+                    inserted: function (el) {
+                     // el.focus()
+                     console.log(el)
+                    }
+                }
+            },
+            data: {
+                someStr: 'hello ',
+                className: 'btn',
+                childCompName: '嗯,这是子组件',
+                isRun: false,
+                child: {
+                    someStr: 'World !'
+                },
+                todos: [
+                    { text: '学习 JavaScript' },
+                    { text: '学习 Vue' },
+                    { text: '整个牛项目' }
+                ],
+                testArr: ['hello', 'world', 'linux']
+            },
+            props: {
+                curName: {
+                    default: 'getCurrName'
+                }
+            },
+            // template: '<div :halo="129"><div v-if="isRun"><span>v-if is run</span></div><span :align="\'center\'" :text="someStr">{{someStr}}<a :engine="100"></a></span></div>',
+            // template: '<ol><blog-post v-focus :post-title="childCompName"></blog-post><li :text = "className" v-for="todo in todos">{{ todo.text }}</li></ol>',
+            computed: {
+                getHelloWord: function() {
+                    return this.someStr + this.child.someStr
+                }
+            },
+            beforeUpdate() {
+            },
+            beforeMount() {
+            },
+            mounted() {
+                console.log(this)
+            },
+            beforeCreate() {
+            },
+            created() {
+            },
+            methods: {
+                clickBtn: function(e) {
+                    console.log(e)
+                    var randomStrArr = ['childOne', 'childTwo', 'childThree']
+                    this.someStr = randomStrArr[parseInt(Math.random() * 3)]
+                    console.log(this.someStr)
+                }
+            }
+        });
+
+        // vm.$watch('someStr', function() {
+        //     console.log(arguments);
+        // });
+    </script>
+</body>
+</html>

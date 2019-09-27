@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcc65ed6-0dc2-4cc7-b06d-feeccadd26f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/compiler/codeframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/codegen/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/codegen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/create-compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/directives/on.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/error-detector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/optimizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/entity-decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/filter-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/html-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/parser/text-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compiler/to-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/lifecycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/bind-dynamic-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/bind-object-listeners.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/bind-object-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/check-keycodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/render-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/render-slot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/render-static.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/resolve-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/resolve-scoped-slots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render-helpers/resolve-slots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/base/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/components/keep-alive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/config/use.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/gdom/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/gdom/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/compile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mvvm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/observer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/watcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvvm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/index.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="953" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gengine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gengine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcc65ed6-0dc2-4cc7-b06d-feeccadd26f3" name="Default Changelist" comment="" />
+      <created>1564638908772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564638908772</updated>
+      <workItem from="1564638911932" duration="30000" />
+      <workItem from="1564729558790" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

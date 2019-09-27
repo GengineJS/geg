@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - 8
+env:
+  - CXX=g++-4.8
+addons:
+  chrome: stable
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+branches:
+  only:
+    - master
+before_install:
+  - export TZ=America/Denver
+  - date
+  - echo -e "machine github.com\n  login $CI_USER_TOKEN" >> ~/.netrc
+dist: trusty
+sudo: false

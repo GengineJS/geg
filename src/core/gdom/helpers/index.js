@@ -1,0 +1,7 @@
+export * from './merge-hook.js'
+export * from './normalize-children.js'
+export * from './normalize-scoped-slots.js'
+export * from './extract-props.js'
+export * from './update-listeners.js'
+export * from './is-async-placeholder.js'
+export * from './get-first-component-child.js'

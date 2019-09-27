@@ -1,0 +1,5 @@
+<template>
+  <ol>
+    <blog-post v-focus :post-title="childCompName"></blog-post><li :text = "className" v-for="todo in todos">{{ todo.text }}</li>
+  </ol>
+</template>
